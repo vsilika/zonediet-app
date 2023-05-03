@@ -37,19 +37,18 @@ export default function App() {
   return (
     <NativeBaseProvider>
       <ScrollView style={styles.container}>
-        <StatusBar  style="light" backgroundColor="#0D0D0D" />
-        <BaseText color="#F27405" textAlign={'center'} marginTop={10} fontSize={30} fontWeight={'bold'}>Zone Diet App</BaseText>
+        <StatusBar  style="dark" backgroundColor="white" />
         <Box width={'100%'}>
           {/* // search for food */}
           <Input
-            placeholder="Search for food"
+            placeholder="Pretražuj namirnice"
             variant="filled"
             width={'100%'}
             marginTop={10}
-            backgroundColor={'#1A1A1A'}
+            backgroundColor={'white'}
             color={'#F27405'}
             _focus={{
-              borderColor: '#F27405'
+              borderColor: 'black'
             }}
             _placeholder={{
               color: '#F27405'
@@ -68,9 +67,10 @@ export default function App() {
                 weight={food.weight}
                 snackWeight={food.snackWeight}
                 mealWeight={food.mealWeight}
-                unitType={food.unitType ? food.unitType : 'grams'}
+                unitType={food.unitType ? food.unitType : 'grama'}
               />
-            )) : <BaseText color={'#F27405'} textAlign={'center'}>Please enter at least 3 characters</BaseText>}
+            )) : null
+            }
           </VStack>
         </Box>
       </ScrollView>
@@ -81,7 +81,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0D0D0D',
+    backgroundColor: 'white',
     padding: 20,
 
   },

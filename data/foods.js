@@ -470,7 +470,7 @@ const foods = [
     "weight": 1,
     "mealWeight": 4,
     "snackWeight": 2,
-    "unitType": "kom"
+    "unitType": "komad"
   },
   {
     id: 60,
@@ -528,6 +528,7 @@ const foods = [
     "weight": 200,
     "mealWeight": 800,
     "snackWeight": 400,
+    "unitType": "ml"
   },
   {
     id: 67,
@@ -536,12 +537,13 @@ const foods = [
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
+    "unitType": "ml"
   },
   // carbs
   {
     id: 68,
     "foodName": "Artičoke, srca",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 190,
     "mealWeight": 760,
     "snackWeight": 380,
@@ -549,7 +551,7 @@ const foods = [
   {
     id: 69,
     "foodName": "Artičoke, cijele",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 360,
     "mealWeight": 1440,
     "snackWeight": 720,
@@ -557,7 +559,7 @@ const foods = [
   {
     id: 70,
     "foodName": "Blitva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 360,
     "mealWeight": 1440,
     "snackWeight": 720,
@@ -565,7 +567,7 @@ const foods = [
   {
     id: 71,
     "foodName": "Bob, mahune",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 200,
     "mealWeight": 800,
     "snackWeight": 400,
@@ -573,7 +575,7 @@ const foods = [
   {
     id: 72,
     "foodName": "Brokula",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 300,
     "mealWeight": 1200,
     "snackWeight": 600,
@@ -581,7 +583,7 @@ const foods = [
   {
     id: 73,
     "foodName": "Bamija, narezana",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
@@ -589,7 +591,7 @@ const foods = [
   {
     id: 74,
     "foodName": "Buća",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
@@ -597,7 +599,7 @@ const foods = [
   {
     id: 75,
     "foodName": "Celer",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 230,
     "mealWeight": 920,
     "snackWeight": 460,
@@ -605,7 +607,7 @@ const foods = [
   {
     id: 76,
     "foodName": "Cikorija",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 1300,
     "mealWeight": 5200,
     "snackWeight": 2600,
@@ -613,7 +615,7 @@ const foods = [
   {
     id: 77,
     "foodName": "Crni grah, kuhan",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 63,
     "mealWeight": 252,
     "snackWeight": 126,
@@ -621,7 +623,7 @@ const foods = [
   {
     id: 78,
     "foodName": "Crveni grah, kuhan",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 63,
     "mealWeight": 252,
     "snackWeight": 126,
@@ -629,7 +631,7 @@ const foods = [
   {
     id: 79,
     "foodName": "Crveni kupus",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 750,
     "mealWeight": 3000,
     "snackWeight": 1500,
@@ -637,7 +639,7 @@ const foods = [
   {
     id: 80,
     "foodName": "Cvjetača",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 875,
     "mealWeight": 3500,
     "snackWeight": 1750,
@@ -645,7 +647,7 @@ const foods = [
   {
     id: 81,
     "foodName": "Gljive",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 500,
     "mealWeight": 2000,
     "snackWeight": 1000,
@@ -653,7 +655,7 @@ const foods = [
   {
     id: 82,
     "foodName": "Kelj",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 375,
     "mealWeight": 1500,
     "snackWeight": 750,
@@ -661,7 +663,7 @@ const foods = [
   {
     id: 83,
     "foodName": "Kiseli kupus",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 375,
     "mealWeight": 1500,
     "snackWeight": 750,
@@ -669,7 +671,7 @@ const foods = [
   {
     id: 84,
     "foodName": "Krastavac",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 480,
     "mealWeight": 1920,
     "snackWeight": 960,
@@ -677,7 +679,7 @@ const foods = [
   {
     id: 85,
     "foodName": "Kupus",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 750,
     "mealWeight": 3000,
     "snackWeight": 1500,
@@ -685,7 +687,7 @@ const foods = [
   {
     id: 86,
     "foodName": "Kupus, kineski",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 750,
     "mealWeight": 3000,
     "snackWeight": 1500,
@@ -693,7 +695,7 @@ const foods = [
   {
     id: 87,
     "foodName": "Leća, kuhan",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 63,
     "mealWeight": 252,
     "snackWeight": 126,
@@ -701,7 +703,7 @@ const foods = [
   {
     id: 88,
     "foodName": "Luk crveni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 140,
     "mealWeight": 560,
     "snackWeight": 280,
@@ -709,7 +711,7 @@ const foods = [
   {
     id: 89,
     "foodName": "Lucerna, klice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 1875,
     "mealWeight": 7500,
     "snackWeight": 3750,
@@ -717,7 +719,7 @@ const foods = [
   {
     id: 90,
     "foodName": "Mlada repa",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 375,
     "mealWeight": 1500,
     "snackWeight": 750,
@@ -725,7 +727,7 @@ const foods = [
   {
     id: 91,
     "foodName": "Pasirana rajčica",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 130,
     "mealWeight": 520,
     "snackWeight": 260,
@@ -733,7 +735,7 @@ const foods = [
   {
     id: 92,
     "foodName": "Patlidžan",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 375,
     "mealWeight": 1500,
     "snackWeight": 750,
@@ -741,7 +743,7 @@ const foods = [
   {
     id: 93,
     "foodName": "Paprika, zelena",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 180,
     "mealWeight": 720,
     "snackWeight": 360,
@@ -749,7 +751,7 @@ const foods = [
   {
     id: 94,
     "foodName": "Paprika, crvena",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 220,
     "mealWeight": 880,
     "snackWeight": 440,
@@ -757,7 +759,7 @@ const foods = [
   {
     id: 95,
     "foodName": "Poriluk",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
@@ -765,7 +767,7 @@ const foods = [
   {
     id: 96,
     "foodName": "Radič, crveni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 500,
     "mealWeight": 2000,
     "snackWeight": 1000,
@@ -773,7 +775,7 @@ const foods = [
   {
     id: 97,
     "foodName": "Radič, zeleni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 1800,
     "mealWeight": 7200,
     "snackWeight": 3600,
@@ -781,7 +783,7 @@ const foods = [
   {
     id: 98,
     "foodName": "Rajčica",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
@@ -789,7 +791,7 @@ const foods = [
   {
     id: 99,
     "foodName": "Rotkvice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 500,
     "mealWeight": 2000,
     "snackWeight": 1000,
@@ -797,7 +799,7 @@ const foods = [
   {
     id: 100,
     "foodName": "Kristal salata",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 440,
     "mealWeight": 1760,
     "snackWeight": 880,
@@ -805,7 +807,7 @@ const foods = [
   {
     id: 101,
     "foodName": "Salata puterica",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 360,
     "mealWeight": 1440,
     "snackWeight": 720,
@@ -813,7 +815,7 @@ const foods = [
   {
     id: 102,
     "foodName": "Salata rica",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 1100,
     "mealWeight": 4400,
     "snackWeight": 2200,
@@ -821,7 +823,7 @@ const foods = [
   {
     id: 103,
     "foodName": "Slanutak, suhi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 20,
     "mealWeight": 80,
     "snackWeight": 40,
@@ -829,7 +831,7 @@ const foods = [
   {
     id: 104,
     "foodName": "Salsa umak",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 125,
     "mealWeight": 500,
     "snackWeight": 250,
@@ -837,7 +839,7 @@ const foods = [
   {
     id: 105,
     "foodName": "Šparoge, divlje",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
@@ -845,7 +847,7 @@ const foods = [
   {
     id: 106,
     "foodName": "Šparoge, vrtne",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 300,
     "mealWeight": 1200,
     "snackWeight": 600,
@@ -853,7 +855,7 @@ const foods = [
   {
     id: 107,
     "foodName": "Špinat, kuhan",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 500,
     "mealWeight": 2000,
     "snackWeight": 1000,
@@ -861,7 +863,7 @@ const foods = [
   {
     id: 108,
     "foodName": "Tikvice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 500,
     "mealWeight": 2000,
     "snackWeight": 1000,
@@ -869,7 +871,7 @@ const foods = [
   {
     id: 109,
     "foodName": "Tikvice, mlade",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 650,
     "mealWeight": 2600,
     "snackWeight": 1300,
@@ -877,7 +879,7 @@ const foods = [
   {
     id: 110,
     "foodName": "Vrganj",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 200,
     "mealWeight": 800,
     "snackWeight": 400,
@@ -885,7 +887,7 @@ const foods = [
   {
     id: 111,
     "foodName": "Mahune",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 250,
     "mealWeight": 1000,
     "snackWeight": 500,
@@ -893,7 +895,7 @@ const foods = [
   {
     id: 112,
     "foodName": "Ajvar",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 125,
     "mealWeight": 500,
     "snackWeight": 250,
@@ -901,7 +903,7 @@ const foods = [
   {
     id: 113,
     "foodName": "Ananas",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 85,
     "mealWeight": 340,
     "snackWeight": 170,
@@ -909,7 +911,7 @@ const foods = [
   {
     id: 114,
     "foodName": "Ananas, konzerva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 70,
     "mealWeight": 280,
     "snackWeight": 140,
@@ -917,7 +919,7 @@ const foods = [
   {
     id: 115,
     "foodName": "Borovnice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 120,
     "mealWeight": 480,
     "snackWeight": 240,
@@ -925,7 +927,7 @@ const foods = [
   {
     id: 116,
     "foodName": "Breskva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 95,
     "mealWeight": 380,
     "snackWeight": 190,
@@ -933,7 +935,7 @@ const foods = [
   {
     id: 117,
     "foodName": "Breskva, konzerva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 125,
     "mealWeight": 500,
     "snackWeight": 250,
@@ -941,7 +943,7 @@ const foods = [
   {
     id: 118,
     "foodName": "Grejp",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 150,
     "mealWeight": 600,
     "snackWeight": 300,
@@ -949,7 +951,7 @@ const foods = [
   {
     id: 119,
     "foodName": "Grožđe",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 60,
     "mealWeight": 240,
     "snackWeight": 120,
@@ -957,7 +959,7 @@ const foods = [
   {
     id: 120,
     "foodName": "Jabuka",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 70,
     "mealWeight": 280,
     "snackWeight": 140,
@@ -965,7 +967,7 @@ const foods = [
   {
     id: 121,
     "foodName": "Jagode",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 180,
     "mealWeight": 720,
     "snackWeight": 360,
@@ -973,7 +975,7 @@ const foods = [
   {
     id: 122,
     "foodName": "Kiwi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 80,
     "mealWeight": 320,
     "snackWeight": 160,
@@ -981,7 +983,7 @@ const foods = [
   {
     id: 123,
     "foodName": "Klementina",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 100,
     "mealWeight": 400,
     "snackWeight": 200,
@@ -989,7 +991,7 @@ const foods = [
   {
     id: 124,
     "foodName": "Kruška",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 70,
     "mealWeight": 280,
     "snackWeight": 140,
@@ -997,7 +999,7 @@ const foods = [
   {
     id: 125,
     "foodName": "Kupina",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 130,
     "mealWeight": 520,
     "snackWeight": 260,
@@ -1005,7 +1007,7 @@ const foods = [
   {
     id: 126,
     "foodName": "Limun",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 150,
     "mealWeight": 600,
     "snackWeight": 300,
@@ -1013,7 +1015,7 @@ const foods = [
   {
     id: 127,
     "foodName": "Limeta",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 1,
     "mealWeight": 4,
     "snackWeight": 2,
@@ -1022,7 +1024,7 @@ const foods = [
   {
     id: 128,
     "foodName": "Malina",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 130,
     "mealWeight": 520,
     "snackWeight": 260,
@@ -1030,7 +1032,7 @@ const foods = [
   {
     id: 129,
     "foodName": "Mandarina",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 100,
     "mealWeight": 400,
     "snackWeight": 200,
@@ -1038,7 +1040,7 @@ const foods = [
   {
     id: 130,
     "foodName": "Mandarina, konzerva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 83,
     "mealWeight": 332,
     "snackWeight": 166,
@@ -1046,7 +1048,7 @@ const foods = [
   {
     id: 131,
     "foodName": "Marelica",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 150,
     "mealWeight": 600,
     "snackWeight": 300,
@@ -1054,7 +1056,7 @@ const foods = [
   {
     id: 132,
     "foodName": "Marelica, konzerva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 90,
     "mealWeight": 360,
     "snackWeight": 180,
@@ -1062,7 +1064,7 @@ const foods = [
   {
     id: 133,
     "foodName": "Mušmula",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 150,
     "mealWeight": 600,
     "snackWeight": 300,
@@ -1070,7 +1072,7 @@ const foods = [
   {
     id: 134,
     "foodName": "Dinja",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 125,
     "mealWeight": 500,
     "snackWeight": 250,
@@ -1078,7 +1080,7 @@ const foods = [
   {
     id: 135,
     "foodName": "Naranča",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 120,
     "mealWeight": 480,
     "snackWeight": 240,
@@ -1086,7 +1088,7 @@ const foods = [
   {
     id: 136,
     "foodName": "Nektarina",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 70,
     "mealWeight": 280,
     "snackWeight": 140,
@@ -1094,7 +1096,7 @@ const foods = [
   {
     id: 137,
     "foodName": "Ribiz",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 120,
     "mealWeight": 480,
     "snackWeight": 240,
@@ -1102,7 +1104,7 @@ const foods = [
   {
     id: 138,
     "foodName": "Jabučni sok",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 800,
     "mealWeight": 3200,
     "snackWeight": 1600,
@@ -1110,7 +1112,7 @@ const foods = [
   {
     id: 139,
     "foodName": "Šljiva, plava",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 80,
     "mealWeight": 320,
     "snackWeight": 160,
@@ -1118,7 +1120,7 @@ const foods = [
   {
     id: 140,
     "foodName": "Šljiva, žuta",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 120,
     "mealWeight": 480,
     "snackWeight": 240,
@@ -1126,7 +1128,7 @@ const foods = [
   {
     id: 141,
     "foodName": "Šljiva, konzerva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 60,
     "mealWeight": 240,
     "snackWeight": 120,
@@ -1134,7 +1136,7 @@ const foods = [
   {
     id: 142,
     "foodName": "Trešnja",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 65,
     "mealWeight": 260,
     "snackWeight": 130,
@@ -1142,7 +1144,7 @@ const foods = [
   {
     id: 143,
     "foodName": "Višnja",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 125,
     "mealWeight": 500,
     "snackWeight": 250,
@@ -1150,7 +1152,7 @@ const foods = [
   {
     id: 144,
     "foodName": "Ječam, suhi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 12,
     "mealWeight": 48,
     "snackWeight": 24,
@@ -1158,7 +1160,7 @@ const foods = [
   {
     id: 145,
     "foodName": "Ječam, kuhani",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 40,
     "mealWeight": 160,
     "snackWeight": 80,
@@ -1166,7 +1168,7 @@ const foods = [
   {
     id: 146,
     "foodName": "Zob, suhi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1174,7 +1176,7 @@ const foods = [
   {
     id: 147,
     "foodName": "Zobene pahuljice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1182,7 +1184,7 @@ const foods = [
   {
     id: 148,
     "foodName": "Bob, suhi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 65,
     "mealWeight": 260,
     "snackWeight": 130,
@@ -1190,7 +1192,7 @@ const foods = [
   {
     id: 149,
     "foodName": "Cikla",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 130,
     "mealWeight": 520,
     "snackWeight": 260,
@@ -1198,7 +1200,7 @@ const foods = [
   {
     id: 150,
     "foodName": "Grašak, suhi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1206,7 +1208,7 @@ const foods = [
   {
     id: 151,
     "foodName": "Grašak, mladi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 100,
     "mealWeight": 400,
     "snackWeight": 200,
@@ -1214,7 +1216,7 @@ const foods = [
   {
     id: 152,
     "foodName": "Mrkva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 130,
     "mealWeight": 520,
     "snackWeight": 260,
@@ -1222,7 +1224,7 @@ const foods = [
   {
     id: 153,
     "foodName": "Krumpir",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 50,
     "mealWeight": 200,
     "snackWeight": 100,
@@ -1230,7 +1232,7 @@ const foods = [
   {
     id: 154,
     "foodName": "Krumpir, pečeni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 40,
     "mealWeight": 160,
     "snackWeight": 80,
@@ -1238,7 +1240,7 @@ const foods = [
   {
     id: 155,
     "foodName": "Krumpir, pire",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 50,
     "mealWeight": 200,
     "snackWeight": 100,
@@ -1246,7 +1248,7 @@ const foods = [
   {
     id: 156,
     "foodName": "Pomfrit",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 30,
     "mealWeight": 120,
     "snackWeight": 60,
@@ -1254,7 +1256,7 @@ const foods = [
   {
     id: 157,
     "foodName": "Kukuruz, šećerac",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 60,
     "mealWeight": 240,
     "snackWeight": 120,
@@ -1262,7 +1264,7 @@ const foods = [
   {
     id: 158,
     "foodName": "Buča, smeđa",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 83,
     "mealWeight": 332,
     "snackWeight": 166,
@@ -1270,7 +1272,7 @@ const foods = [
   {
     id: 159,
     "foodName": "Buča, zimska",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 63,
     "mealWeight": 252,
     "snackWeight": 126,
@@ -1278,7 +1280,7 @@ const foods = [
   {
     id: 160,
     "foodName": "Grah, suhi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 16,
     "mealWeight": 64,
     "snackWeight": 32,
@@ -1286,7 +1288,7 @@ const foods = [
   {
     id: 161,
     "foodName": "Grah, kuhan",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 31,
     "mealWeight": 124,
     "snackWeight": 62,
@@ -1294,7 +1296,7 @@ const foods = [
   {
     id: 162,
     "foodName": "Grah, konzerva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 83,
     "mealWeight": 332,
     "snackWeight": 166,
@@ -1302,7 +1304,7 @@ const foods = [
   {
     id: 163,
     "foodName": "Banana",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 40,
     "mealWeight": 160,
     "snackWeight": 80,
@@ -1310,7 +1312,7 @@ const foods = [
   {
     id: 164,
     "foodName": "Datulje",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1318,7 +1320,7 @@ const foods = [
   {
     id: 165,
     "foodName": "Dinja",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 120,
     "mealWeight": 480,
     "snackWeight": 240,
@@ -1326,7 +1328,7 @@ const foods = [
   {
     id: 166,
     "foodName": "Grožđice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1334,7 +1336,7 @@ const foods = [
   {
     id: 167,
     "foodName": "Guava",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 83,
     "mealWeight": 332,
     "snackWeight": 166,
@@ -1342,7 +1344,7 @@ const foods = [
   {
     id: 168,
     "foodName": "Kaki",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 55,
     "mealWeight": 220,
     "snackWeight": 110,
@@ -1350,7 +1352,7 @@ const foods = [
   {
     id: 169,
     "foodName": "Kesten",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 22,
     "mealWeight": 88,
     "snackWeight": 44,
@@ -1358,7 +1360,7 @@ const foods = [
   {
     id: 170,
     "foodName": "Lubenica",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 130,
     "mealWeight": 520,
     "snackWeight": 260,
@@ -1366,7 +1368,7 @@ const foods = [
   {
     id: 171,
     "foodName": "Mango",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 63,
     "mealWeight": 252,
     "snackWeight": 126,
@@ -1374,7 +1376,7 @@ const foods = [
   {
     id: 172,
     "foodName": "Papaja",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 110,
     "mealWeight": 440,
     "snackWeight": 220,
@@ -1382,7 +1384,7 @@ const foods = [
   {
     id: 173,
     "foodName": "Smokva",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 70,
     "mealWeight": 280,
     "snackWeight": 140,
@@ -1390,7 +1392,7 @@ const foods = [
   {
     id: 174,
     "foodName": "Marelica, sušena",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 16,
     "mealWeight": 64,
     "snackWeight": 32,
@@ -1398,7 +1400,7 @@ const foods = [
   {
     id: 175,
     "foodName": "Smokva, sušena",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 17,
     "mealWeight": 68,
     "snackWeight": 34,
@@ -1406,7 +1408,7 @@ const foods = [
   {
     id: 176,
     "foodName": "Šljiva, sušena",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 16,
     "mealWeight": 64,
     "snackWeight": 32,
@@ -1414,7 +1416,7 @@ const foods = [
   {
     id: 177,
     "foodName": "Brašno, bijelo",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1422,7 +1424,7 @@ const foods = [
   {
     id: 178,
     "foodName": "Brašno, integralno",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1430,7 +1432,7 @@ const foods = [
   {
     id: 179,
     "foodName": "Brašno, raženo",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1438,7 +1440,7 @@ const foods = [
   {
     id: 180,
     "foodName": "Croissant",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1446,7 +1448,7 @@ const foods = [
   {
     id: 181,
     "foodName": "Čajno pecivo",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1454,7 +1456,7 @@ const foods = [
   {
     id: 182,
     "foodName": "Dvopek",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 10,
     "mealWeight": 40,
     "snackWeight": 20,
@@ -1462,7 +1464,7 @@ const foods = [
   {
     id: 183,
     "foodName": "Dvopek, integralni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1470,7 +1472,7 @@ const foods = [
   {
     id: 184,
     "foodName": "Krofna",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1479,7 +1481,7 @@ const foods = [
   {
     id: 185,
     "foodName": "Krekeri",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 10,
     "mealWeight": 40,
     "snackWeight": 20,
@@ -1487,7 +1489,7 @@ const foods = [
   {
     id: 186,
     "foodName": "Kruh, bijeli",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1496,7 +1498,7 @@ const foods = [
   {
     id: 187,
     "foodName": "Kruh, integralni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 22,
     "mealWeight": 88,
     "snackWeight": 44,
@@ -1504,7 +1506,7 @@ const foods = [
   {
     id: 188,
     "foodName": "Kruh, kukuruzni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 20,
     "mealWeight": 80,
     "snackWeight": 40,
@@ -1512,7 +1514,7 @@ const foods = [
   {
     id: 189,
     "foodName": "Kruh, raženi",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 22,
     "mealWeight": 88,
     "snackWeight": 44,
@@ -1520,7 +1522,7 @@ const foods = [
   {
     id: 190,
     "foodName": "Kruh, pšenični",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 20,
     "mealWeight": 80,
     "snackWeight": 40,
@@ -1528,7 +1530,7 @@ const foods = [
   {
     id: 191,
     "foodName": "Kruh, sojin",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 20,
     "mealWeight": 80,
     "snackWeight": 40,
@@ -1536,7 +1538,7 @@ const foods = [
   {
     id: 192,
     "foodName": "Kruh, zobeni",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 22,
     "mealWeight": 88,
     "snackWeight": 44,
@@ -1544,7 +1546,7 @@ const foods = [
   {
     id: 193,
     "foodName": "Krušne mrvice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1553,7 +1555,7 @@ const foods = [
   {
     id: 194,
     "foodName": "Kokice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1562,7 +1564,7 @@ const foods = [
   {
     id: 195,
     "foodName": "Musli",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 14,
     "mealWeight": 56,
     "snackWeight": 28,
@@ -1570,7 +1572,7 @@ const foods = [
   {
     id: 196,
     "foodName": "Lepinja",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1579,7 +1581,7 @@ const foods = [
   {
     id: 197,
     "foodName": "Palačinka",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1588,7 +1590,7 @@ const foods = [
   {
     id: 198,
     "foodName": "Peciivo",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 18,
     "mealWeight": 72,
     "snackWeight": 36,
@@ -1596,7 +1598,7 @@ const foods = [
   {
     id: 199,
     "foodName": "Proso",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 14,
     "mealWeight": 56,
     "snackWeight": 28,
@@ -1604,7 +1606,7 @@ const foods = [
   {
     id: 200,
     "foodName": "Griz",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1613,7 +1615,7 @@ const foods = [
   {
     id: 201,
     "foodName": "Riža, bijela",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 45,
     "mealWeight": 180,
     "snackWeight": 90,
@@ -1621,7 +1623,7 @@ const foods = [
   {
     id: 202,
     "foodName": "Riža, integralna",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 40,
     "mealWeight": 160,
     "snackWeight": 80,
@@ -1629,15 +1631,16 @@ const foods = [
   {
     id: 203,
     "foodName": "Rižin wafel",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 2,
     "mealWeight": 8,
     "snackWeight": 4,
+    "unitType": "komad"
   },
   {
     id: 204,
     "foodName": "Tjestenina",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 50,
     "mealWeight": 200,
     "snackWeight": 100,
@@ -1645,7 +1648,7 @@ const foods = [
   {
     id: 205,
     "foodName": "Toasts",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1654,7 +1657,7 @@ const foods = [
   {
     id: 206,
     "foodName": "Žganjci",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 40,
     "mealWeight": 160,
     "snackWeight": 80,
@@ -1662,7 +1665,7 @@ const foods = [
   {
     id: 207,
     "foodName": "Cornflakes",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1671,7 +1674,7 @@ const foods = [
   {
     id: 208,
     "foodName": "Žemlja (mala)",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1680,7 +1683,7 @@ const foods = [
   {
     id: 209,
     "foodName": "Ćokolada, crna",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 30,
     "mealWeight": 120,
     "snackWeight": 60,
@@ -1688,7 +1691,7 @@ const foods = [
   {
     id: 210,
     "foodName": "Džem od jabuke",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1697,7 +1700,7 @@ const foods = [
   {
     id: 211,
     "foodName": "Džem od marelice",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1706,7 +1709,7 @@ const foods = [
   {
     id: 212,
     "foodName": "Džem od šljive",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1715,7 +1718,7 @@ const foods = [
   {
     id: 213,
     "foodName": "Džem od jagode",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1724,7 +1727,7 @@ const foods = [
   {
     id: 214,
     "foodName": "Fruktoza",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 9,
     "mealWeight": 36,
     "snackWeight": 18,
@@ -1733,7 +1736,7 @@ const foods = [
   {
     id: 215,
     "foodName": "Kakao, prah",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 83,
     "mealWeight": 332,
     "snackWeight": 166,
@@ -1742,7 +1745,7 @@ const foods = [
   {
     id: 216,
     "foodName": "Kakao, prah (Nesquick)",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 10,
     "mealWeight": 40,
     "snackWeight": 20,
@@ -1751,7 +1754,7 @@ const foods = [
   {
     id: 217,
     "foodName": "Ketchup",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 30,
     "mealWeight": 120,
     "snackWeight": 60,
@@ -1760,7 +1763,7 @@ const foods = [
   {
     id: 218,
     "foodName": "Marmelada",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1769,7 +1772,7 @@ const foods = [
   {
     id: 219,
     "foodName": "Med",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 12,
     "mealWeight": 48,
     "snackWeight": 24,
@@ -1778,7 +1781,7 @@ const foods = [
   {
     id: 220,
     "foodName": "Šećer",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 9,
     "mealWeight": 36,
     "snackWeight": 18,
@@ -1787,7 +1790,7 @@ const foods = [
   {
     id: 221,
     "foodName": "Šećer (smeđi)",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 9,
     "mealWeight": 36,
     "snackWeight": 18,
@@ -1796,7 +1799,7 @@ const foods = [
   {
     id: 222,
     "foodName": "Šećer u prahu",
-    "type": "Carbs",
+    "type": "Ugljikohidrat",
     "weight": 9,
     "mealWeight": 36,
     "snackWeight": 18,
@@ -1805,7 +1808,7 @@ const foods = [
   {
     id: 223,
     "foodName": "Avokado",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 15,
     "mealWeight": 60,
     "snackWeight": 30,
@@ -1814,7 +1817,7 @@ const foods = [
   {
     id: 224,
     "foodName": "Bademi",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 3,
     "mealWeight": 12,
     "snackWeight": 6,
@@ -1825,7 +1828,7 @@ const foods = [
   {
     id: 225,
     "foodName": "Bademov maslac",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 5,
     "mealWeight": 20,
     "snackWeight": 10,
@@ -1834,17 +1837,17 @@ const foods = [
   {
     id: 226,
     "foodName": "Kikiriki",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 6,
     "mealWeight": 24,
     "snackWeight": 12,
-
+    "unitType": "komad"
   },
 
   {
     id: 227,
     "foodName": "Kikiriki maslac",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 5,
     "mealWeight": 20,
     "snackWeight": 10,
@@ -1853,7 +1856,7 @@ const foods = [
   {
     id: 228,
     "foodName": "Masline",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 3,
     "mealWeight": 12,
     "snackWeight": 6,
@@ -1864,16 +1867,17 @@ const foods = [
   {
     id: 229,
     "foodName": "Pistacio",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 6,
     "mealWeight": 24,
     "snackWeight": 12,
+    "unitType": "komad"
   },
 
   {
     id: 230,
     "foodName": "Lan, mljeveni",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 5,
     "mealWeight": 20,
 
@@ -1882,7 +1886,7 @@ const foods = [
   {
     id: 231,
     "foodName": "Chia sjemenke",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 5,
     "mealWeight": 20,
     "snackWeight": 10,
@@ -1891,7 +1895,7 @@ const foods = [
   {
     id: 232,
     "foodName": "Majoneza Light",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 5,
     "mealWeight": 20,
     "snackWeight": 10,
@@ -1900,12 +1904,31 @@ const foods = [
   {
     id: 233,
     "foodName": "Orasi",
-    "type": "Fats",
+    "type": "Mast",
     "weight": 5,
     "mealWeight": 20,
     "snackWeight": 10,
   },
+   
+  {
+    id: 234,
+    "foodName": "Grisini",
+    "type": "Ugljikohidrat",
+    "weight": 1,
+    "mealWeight": 4,
+    "snackWeight": 2,
+    "unitType": "komad"
+  },
 
+  {
+    id: 235,
+    "foodName": "Indijski oraščići",
+    "type": "Mast",
+    "weight": 6,
+    "mealWeight": 24,
+    "snackWeight": 12,
+    "unitType": "komad"
+  },
 ];
 
 export default foods;
